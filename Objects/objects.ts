@@ -79,12 +79,12 @@ const book1: Book = {
   5. OPTIONAL PROPERTIES
 --------------------------------------------------*/
 
-interface User {
+interface User3 {
   username: string;
   email?: string;
 }
 
-const user1: User = {
+const user: User3 = {
   username: "coder123",
 };
 
@@ -102,7 +102,7 @@ const mySchool: School = {
   name: "Green Valley High",
 };
 
-// mySchool.id = 202; 
+// mySchool.id = 202;
 
 /*--------------------------------------------------
   7. OBJECTS IN FUNCTIONS
@@ -202,7 +202,7 @@ const fixedProfile: ReadonlyProfile = {
   age: 18,
 };
 
-// fixedProfile.age = 19; 
+// fixedProfile.age = 19;
 
 /*--------------------------------------------------
   13. PRACTICE EXERCISES
@@ -247,7 +247,7 @@ const finalPlayer: Readonly<Player> = {
   score: 100,
 };
 
-// finalPlayer.score = 120; 
+// finalPlayer.score = 120;
 
 /****************************************************
  * END OF LEARNING FILE

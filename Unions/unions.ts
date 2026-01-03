@@ -5,7 +5,7 @@ let id: number | string;
 
 id = 101;
 id = "A102";
-// id = true; ❌ Error
+// id = true; 
 
 let ApiResponse: "Pending" | "Success" | "Error";
 ApiResponse = "Success";
