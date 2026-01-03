@@ -139,20 +139,20 @@ const multiplyNumbers: MathOperation = (a, b) => a * b;
   Generics allow functions to work with many types
 */
 
-function identity<T>(value: T): T {
+function identity11<T>(value: T): T {
   return value;
 }
 
-identity<number>(5);
-identity<string>("Hello");
-identity<boolean>(true);
+identity11<number>(5);
+identity11<string>("Hello");
+identity11<boolean>(true);
 
 
 /*--------------------------------------------------
   10. GENERICS WITH ARRAYS
 --------------------------------------------------*/
 
-function getFirstElement<T>(arr: T[]): T {
+function getFirstElement1<T>(arr: T[]): T {
   return arr[0];
 }
 

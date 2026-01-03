@@ -27,4 +27,5 @@ const admin1: Admin = {
   name: "Sam",
   isAdmin: true,
   permissions: ["read", "write"],
+  email1:"chilll@gmil"
 };
